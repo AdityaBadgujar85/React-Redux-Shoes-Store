@@ -1,0 +1,38 @@
+.Navbrand {
+  font-weight: bold;
+  color: #0dcaf0; /* Bootstrap info color */
+  text-decoration: none;
+}
+
+.Navlink {
+  color: #f8f9fa;
+  text-decoration: none;
+  font-size: 1.1rem;
+  position: relative;
+  padding: 4px 8px;
+}
+
+.Navlink:hover,
+.Navlink:focus {
+  color: #0dcaf0;
+  text-decoration: none;
+}
+
+.NavDropdown .dropdown-menu {
+  background-color: #343a40;
+  border: none;
+}
+
+.NavDropdown .dropdown-item {
+  color: #f8f9fa;
+}
+
+.NavDropdown .dropdown-item:hover {
+  background-color: #495057;
+  color: #0dcaf0;
+}
+
+.Active {
+  color: #0dcaf0;
+  font-weight: 600;
+}

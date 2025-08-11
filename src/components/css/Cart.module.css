@@ -1,0 +1,24 @@
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    background-color: #212529;
+   
+}
+.cardImg{
+    max-width:20rem;
+    min-width: 10rem;   
+    border: 0.1rem solid grey;
+     padding: 0.5rem;
+     height: 10rem;
+}
+.priceandbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.titleAndPriceButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

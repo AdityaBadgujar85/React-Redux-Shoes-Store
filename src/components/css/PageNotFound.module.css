@@ -1,0 +1,22 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.mainContainer h1{
+    margin-top: 3rem;
+    font-size: 15rem;
+}
+.mainContainer p{
+    font-size: large;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainContainer h1{
+    font-size: 8rem;
+}
+.mainContainer p{
+    font-size: medium;
+}
+}
