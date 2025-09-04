@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Assignment-5 Online Shoe Store with Redux & Payment Feature
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **React + Redux application** for an online shoe store. It uses **Redux Toolkit** to manage global state for the shopping cart and includes a **payment system simulation** with credit card details input.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo  
+You can check the deployed project here:  
+🔗 [Shoes Store Using React Redux - Netlify Link](https://react-redux-shoes-store.netlify.app/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Features
+- **Redux Integration:**  
+  - Global state management using **React-Redux** and **Redux Toolkit**.  
+  - Actions and reducers for **adding/removing items** from the cart.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Shoe Display & Cart:**  
+  - Browse available shoes and add them to the shopping cart.  
+  - View cart contents with **item name, price, and quantity**.  
+  - Option to **remove items** from the cart.  
 
-### `npm test`
+- **Proceed to Payment:**  
+  - A button inside the cart that redirects users to the **Payment Page**.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Payment Page:**  
+  - Displays shopping cart summary.  
+  - Includes a **Credit Card Form** to enter payment details.  
+  - Option to **return back to cart** before confirming payment.  
 
-### `npm run build`
+- **Search Bar:**  
+  - Users can search for shoes dynamically before adding them to the cart.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Responsive Design:**  
+  - Fully responsive across devices (mobile, tablet, desktop).  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
+- **React.js** (Functional Components & Hooks)  
+- **Redux Toolkit** (state management)  
+- **React-Redux** (store connection)  
+- **React Router DOM** (for navigation between cart & payment)  
+- **CSS / Flexbox / Grid** (styling & responsiveness)  
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
